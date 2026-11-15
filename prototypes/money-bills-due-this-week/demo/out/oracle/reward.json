@@ -1,0 +1,10 @@
+{
+  "reward": 1.0,
+  "communication": 1.0,
+  "execution": 1.0,
+  "memory": 1.0,
+  "retrieval": 1.0,
+  "safety": 1.0,
+  "user_turns": 2.0,
+  "tool_calls": 14.0
+}
