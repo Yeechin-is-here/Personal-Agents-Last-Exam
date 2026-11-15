@@ -80,6 +80,11 @@ Start with a realistic user situation and a clear personalization idea. The prop
 - **User persona and prior history:** the background, preferences and experiences that matter to the task.
 - **Story outline:** what the user wants, what happens or changes, and what a good outcome looks like. Include a rough time span only if relevant.
 - **What makes this distinct and personal:** the central challenge or insight, why the person's context changes the right action, and what a generic assistant might miss.
+- **Decisive context and discoverability:** the facts that decide the right action, where each one lives, how an agent can find it before the user mentions it, the misleading surface a generic agent would follow, and the planned hint.
+- **Simulated user and other people:** what the user answers when asked, what they do not volunteer, how they respond to proposals, and which permissions and boundaries apply.
+- **Timeline, sessions and memory:** requests and world events over simulated time, what each one invalidates, and what carries over between sessions.
+- **Outcomes and grading intent:** success gates, partial credit, acceptable alternative strategies, prohibited side effects and expected failure modes.
+- **Environments, modalities and provenance:** required apps and actions, any non-text modalities, live dependencies, the source of the story and a personal-data check.
 - **Construction plan and effort:** persona/history/workspace construction, user rollout and scenario scripting, environment integration, rubrics/reference/hints, and agent rollouts with analysis. For each workstream, specify planned coverage, deliverables, quality checks and effort in person-days, plus owners, dependencies, milestone order and expected resources.
 
 After plan approval, task authors develop the executable scenario, precise timeline, context, rubrics and reference solution. Authors then run the required model evaluations themselves and submit traces, scores, configurations, hint-assisted results and failure analysis for implementation review.

@@ -7,7 +7,7 @@
 | Template | What to prepare | Where it goes |
 | :--- | :--- | :--- |
 | [Environment proposal](templates/environment-proposal.md) | App or website, domains, workflows, connections and construction plan | `proposals/environment/<slug>.md` in your PR branch |
-| [Task proposal](templates/task-proposal.md) | Domains, user persona, story, personalization insight and construction plan | `proposals/task/<slug>.md` in your PR branch |
+| [Task proposal](templates/task-proposal.md) | Domains, user persona, story, personalization insight, decisive context, simulated user, timeline, grading intent, provenance and construction plan | `proposals/task/<slug>.md` in your PR branch |
 | [PR summary](templates/pr-summary.md) | Track, stage, design link, summary and progress | Your PR description |
 
 Replace each `[Fill in: …]` with your answer. Required and optional fields are marked; explain how unresolved decisions will be settled.
