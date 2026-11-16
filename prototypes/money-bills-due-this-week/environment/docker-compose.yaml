@@ -1,0 +1,21 @@
+# Harbor reserves the `main` service for the agent; every other service is a sidecar.
+services:
+  main:
+    depends_on:
+      world:
+        condition: service_healthy
+  world:
+    build:
+      context: ./world
+    environment:
+      PALE_STATE_PATH: /world-state/state.json
+      PALE_USER_SIM: ${PALE_USER_SIM:-llm}          # scripted | llm
+      PALE_USER_MODEL: ${PALE_USER_MODEL:-claude-sonnet-5-5}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      PALE_ADMIN_TOKEN: a4f50fd92ac94294b6d639ea6e115108
+    expose:
+      - "8765"
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8765/health"]
+      interval: 2s
+      retries: 15
