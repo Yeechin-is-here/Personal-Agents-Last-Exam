@@ -17,12 +17,13 @@ No proposals submitted yet.
 
 ## 🧪 Task Track
 
-**0 proposals.**
+**1 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-16 01:49:29 | [#3](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/3) · Adapt a saved solo ride when a child joins<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/3/files) | Fitness &amp; wellbeing | The same browsing history is relevant to the same rider on both days. What changes is whose needs the route must meet. A short route marketed as a family lake loop includes a mixed-traffic connector. Another lake route exceeds the family's… | Design review | Awaiting review | [LucasXinYu](https://github.com/LucasXinYu) |  |
 
-No proposals submitted yet.
+
 
 ## How updates work
 
